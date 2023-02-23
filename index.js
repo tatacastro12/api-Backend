@@ -9,12 +9,10 @@ const port = process.env.PORT || 3030;
 
 // middlewares
 app.use(express.json());
- app.use("/", songsRoute);
+ app.use("/songs", songsRoute);
 
 // routes
-app.get("/", (req, res) => {
-  res.send("Welcome to my API");
-});
+
 
 // mongodb connection
 mongoose.set('strictQuery', true);

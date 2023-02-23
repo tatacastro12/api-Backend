@@ -1,27 +1,27 @@
 ####
-POST http://localhost:3030/songs HTTP/1.1
+POST http://localhost:3030/songs/ HTTP/1.1
 Content-Type: application/json
 
 {
-  "title": "fluyendo2",
+  "title": "agua de amor3",
   "interpreter": "ayla",
   "year": 2021,
   "imgurl": "https://static.wixstatic.com/media/8a7bb1_2de8030543b54a11a52d43b348dce850~mv2.jpg/v1/fill/w_640,h_514,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8a7bb1_2de8030543b54a11a52d43b348dce850~mv2.jpg"
 }
 
 ###
-GET http://localhost:3030/songs HTTP/1.1
+GET  http://localhost:3030/songs/63f7f82da2d223aaac23b39d HTTP/1.1
 
 ###
-GET http://localhost:3030/songs/63f54a576e596bf6b33c65b7 HTTP/1.1
+GET https://proyecto-backend-3tba.onrender.com/songs/63f54a576e596bf6b33c65b7 HTTP/1.1
 
 ###
-PUT http://localhost:3030/songs/63f56f1aadb4f6867494c975 HTTP/1.1
+PUT https://proyecto-backend-3tba.onrender.com/songs/63f7f82da2d223aaac23b39d HTTP/1.1
 Content-Type: application/json
 
 
 {
-    "title": "fluyendo",
+    "title": "agua de amor_",
   "interpreter": "ayla",
   "year": 2022,
   "imgurl": "https://static.wixstatic.com/media/8a7bb1_2de8030543b54a11a52d43b348dce850~mv2.jpg/v1/fill/w_640,h_514,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8a7bb1_2de8030543b54a11a52d43b348dce850~mv2.jpg"
